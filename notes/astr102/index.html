@@ -1,0 +1,17 @@
+---
+layout: default
+title: ASTR 102
+---
+<section class="content">
+  <h2>ASTR 102</h2>
+  <p>Notes from Astronomy 102 - The Sun Spring 2013</p>
+</section>
+<ul class="entries">
+  {% for post in site.categories.astr102 %}
+  <li>
+    <a href="{{ post.url }}">
+      <h3>{{ post.title }}</h3>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,17 @@
+---
+layout: default
+title: COMP 410
+---
+<section class="content">
+  <h2>COMP 410</h2>
+  <p>Notes from Data Structures Spring 2013</p>
+</section>
+<ul class="entries">
+  {% for post in site.categories.comp431 %}
+  <li>
+    <a href="{{ post.url }}">
+      <h3>{{ post.title }}</h3>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
