@@ -9,9 +9,7 @@ title: ASTR 102
 <ul class="entries">
   {% for post in site.categories.astr102 %}
   <li>
-    <a href="{{ post.url }}">
-      <h3>{{ post.title }}</h3>
-    </a>
+    <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
 </ul>
