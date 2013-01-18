@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Solipsis Development {% if page.title %} | {{ page.title }} {% endif %}</title>
+	<link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+	<div id="main">
+		{{ content }}
+		<footer>
+			<p>&copy; Solipsis Development 2011 | All Rights Reserved. </p>
+		</footer>
+	</div>
+</body>
+</html>
