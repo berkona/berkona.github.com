@@ -8,4 +8,4 @@ layout: default
 - [POLI 130](/notes/poli130)
 
 ## Previous Classes ##
-Oh Noes!  There are no previous class notes.
+- Oh Noes!  There are no previous class notes.
