@@ -1,5 +1,7 @@
 ---
 layout: default
 ---
-<h2 class="content">{{page.title}}</h2>
+{% if page.title %}
+<h2 class="content-title">{{page.title}}</h2>
+{% endif %}
 {{ content }}

@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<section class="content-header">
+	{% if page.title %}<h2> {{ page.title }} </h2> {% endif %}
+	{% if page.title_detail %} <p> {{ page.title_detail }} </p> {% endif %}
+</section>
+<ul class="content-entries">
+	{{ content }}
+</ul>
