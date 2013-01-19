@@ -1,7 +1,7 @@
 ---
 layout: rss
 ---
-{% for post in site.notes %}
+{% for post in site.categories.notes %}
 	<item>
 		<title>{{ post.title }}</title>
 		<description>{{ post.content | xml_escape }}</description>
