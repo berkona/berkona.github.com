@@ -43,62 +43,61 @@
   <link type="text/css" rel="stylesheet" href="{{ site.url }}/css/solipsism.responsive.gpanels.css" media="screen" />
   <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" media="all" />
 </head>
-<body>
-<div id="header-wrapper"><div class="container clearfix">
-  <div id="branding" class="clearfix no-logo site-name-hidden no-slogan">
-    <h1 id="site-name" class="element-invisible">
-      <a href="/" title="Home page" class="active">Solipsis Development</a>
-    </h1>
-  </div>
-  <div id="menu-bar" class="nav clearfix">
-    <h2 class="block-title element-invisible element-invisible">
-      Main menu
-    </h2>
-    <div class="menu-wrapper clearfix">
-      <ul class="menu clearfix">
-        <li class="first leaf">
-          <a href="/" title="Go home." class="active">
-            Home
-          </a>
-        </li>
-        <li class="leaf">
-          <a href="/about" title="The essential questions in life.">
-            About Us
-          </a>
-        </li>
-        <li class="leaf">
-          <a href="/team/jonmonroe" title="What we&#039;ve done.">
-            Experience
-          </a>
-        </li>
-        <li class="leaf">
-          <a href="/latest" title="The latest news.">Blog</a>
-        </li>
-        <li class="last leaf">
-          <form method="get" action="/search">
-            <input type="search" placeholder="Search" name="query" />
-          </form>
-        </li>
-      </ul>
-      <div class="search-box">
-
+<body class="html front not-logged-in one-sidebar sidebar-second page-frontpage lang-en page-views site-name-hidden color-scheme-default solipsism gecko fs-medium bb-n hl-l mb-dd mma-l ia-c snc-n snw-n  sns-n ssc-n ssw-n  sss-n ptc-n ptw-n pta-l pts-n ntc-n ntw-n nta-l nts-n ctc-n ctw-n cta-l cts-n btc-uc btw-n bta-l bts-n itrc-4 isrc-4 bf-a snf-gwf-open-sans ssf-gwf-open-sans ptf-sss ptf-gwf-open-sans ntf-gwf-open-sans ctf-gwf-open-sans btf-gwf-open-sans hide-ss-nav">
+  
+<div id="skip-link">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div id="page-wrapper"><div id="page">
+  <div id="header-wrapper"><div class="container clearfix">
+    <header class="clearfix">
+      <div id="branding" class="clearfix no-logo site-name-hidden no-slogan">
+        <hgroup class="element-invisible">
+          <h1 id="site-name" class="element-invisible"><a href="/" title="Home page" class="active">Solipsis Development</a></h1>
+        </hgroup>
       </div>
-    </div>
-  </div>
-</div></div>
-<div id="content-wrapper" class="no-secondary"><div class="container">
-  <div id="columns"><div class="columns-inner clearfix">
-    <div id="content-column"><div class="content-inner">
-      <div id="main-content">
-        <div id="content">
-        	{{ content }}
+      <div id="menu-bar" class="nav clearfix">
+        <nav id="block-system-main-menu" class="block block-system block-menu block-odd block-count-1 block-region-menu-bar clearfix">
+          <h2 class="block-title element-invisible element-invisible">Main menu</h2>
+          <div class="menu-wrapper clearfix">
+            <ul class="menu clearfix">
+              <li class="first leaf">
+                <a href="/" title="The latest news." class="active">Home</a>
+              </li>
+              <li class="leaf">
+                <a href="/about" title="The essential questions in life.">About Us</a>
+              </li>
+              <li class="leaf">
+                <a href="/team/jonmonroe" title="What we&#039;ve done.">Experience</a>
+              </li>
+              <li class="leaf">
+                <a href="/latest">Blog</a>
+              </li>
+              <li class="last leaf">
+                <form method="get" action="/search">
+                  <input type="search" placeholder="Search" name="query" />
+                </form>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div></div>
+  <div id="content-wrapper" class="no-secondary"><div class="container">
+    <div id="columns"><div class="columns-inner clearfix">
+      <div id="content-column"><div class="content-inner">
+        <div id="main-content">
+          <div id="content">
+          	{{ content }}
+          </div>
         </div>
-        <footer id="footer">
-					<p>&copy; Solipsis Development 2011 | All Rights Reserved. </p>
-				</footer>
-      </div>
+      </div></div>
     </div></div>
   </div></div>
+  <footer id="page-footer">
+    <p>&copy; Solipsis Development 2011 | All Rights Reserved. </p>
+  </footer>
 </div></div>
 <script src="/js/google-analytics.js" />
 </body>
