@@ -1,6 +1,6 @@
 ---
 layout: note
-title: Misc - Solar Fusion Reactions
+title: Jan 22, 2013 - Solar Fusion Reactions
 ---
 
 ## Particle reference ##

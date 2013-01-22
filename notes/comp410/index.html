@@ -1,15 +1,10 @@
 ---
 layout: default
 title: COMP 410
+title_detail: Notes from COMP 410 - Data Structures Spring 2013
 ---
-<section class="content">
-  <h2>COMP 410</h2>
-  <p>Notes from COMP 410 - Data Structures Spring 2013</p>
-</section>
-<ul class="entries">
-  {% for post in site.categories.comp410 %}
-  <li>
-   <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+{% for post in site.categories.comp410 %}
+<li>
+ <a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}

@@ -1,6 +1,6 @@
 ---
 layout: note
-title: Jan 22, 2012 Network Switching
+title: Jan 22, 2012 - Network Switching
 ---
 
 ## Message Switching ##
