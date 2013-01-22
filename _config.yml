@@ -1,7 +1,5 @@
-pygments: true
 permalink: date
 markdown: maruku
-lsi: true
 
 maruku:
   use_tex: false
