@@ -1,87 +1,33 @@
 /* Base */
 html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  line-height: 1.5em;
-  height: 100%;
-  overflow-y: scroll;
+  font-size: 81.3%; /* 13px base font size */
 }
-
 body {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility\9; /* Only IE, can mess with Android */
-}
-
-/* Gutters - if gutters are set in theme settings they will override these
-   values: see Extensions > Modify Output > Design */
-#main-content,
-.block-inner,
-.pane-inner,
-.menu-wrapper,
-.branding-elements,
-.breadcrumb-wrapper,
-.attribution,
-.at-panel .rounded-corner,
-.block-panels-mini > .block-title,
-div.messages {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-/* Panel pages need negative margin equal to the gutter width applied to #content,
-  this is taken care of in theme settings as per above for normal gutters */
-#content .panel-display,
-#content .panel-flexible {
-  margin-left: -10px;
-  margin-right: -10px;
+  line-height: 1.5;
 }
 
 /* Micro reset */
-h1, h2, h3, h4, h5, h6,
-h1 img, h2 img, h3 img, h4 img, h5 img, h6 img,
-em, dfn, del, ins,
-figure, figcaption {
+h1, h2, h3, h4, h5, h6, h1 img, h2 img, h3 img, h4 img, h5 img, h6 img, em, dfn, del, ins {
   margin: 0;
   padding: 0;
-}
-
-/* Reset HTML5 elements */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
 }
 
 /* Headings */
 h1 {
-  font-size: 2em;
+  font-size: 2.308em; /* 30px */
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.538em; /* 20px */
 }
 h3 {
-  font-size: 1.25em;
+  font-size: 1.231em; /* 16px */
 }
 h4 {
-  font-size: 1.1em;
+  font-size: 1.077em; /* 14px */
 }
 h5, h6 {
-  font-size: 1em;
+  font-size: 1em; /* 13px */
 }
-
 p {
   margin: 0 0 0.75em;
   padding: 0;
@@ -151,7 +97,7 @@ th {
   border-bottom: 0 none;
 }
 tr.even, tr.odd {
-  background-color: rgba(0,0,0,0.01);
+  background-color: rgba(0,0,0,0.03);
   padding: 0;
 }
 
@@ -237,73 +183,10 @@ dd {
   margin: 0;
 }
 
-/**
- * Flexible Media and Cross browser improvements
- * - This can cause issues in table cells where no width is set on the column,
- *   only in some versions of webkit and IE 7/8.
- * - declaring the width attribute on image elements and using max-width causes
- *   the "dissappering images" bug in IE8.
- * - Google maps break also, see below for fixes.
- */
-img {
-  max-width: 100%;
-  height: auto;
-  -ms-interpolation-mode: bicubic;
-}
-
-/* /ht Ethan Marcotte - http://front.ie/l8rJaA */
-img,
-embed,
-object,
-video {
-  max-width: 100%;
-}
-
-/* Disable flexiblity for IE8 and below */
-.lt-ie9 img,
-.lt-ie9 object,
-.lt-ie9 embed,
-.lt-ie9 video {
-  max-width: none;
-}
-
-/* Override max-width 100% for map displays and widgets */
-#map img,
-.gmap img,
-.view-gmap img,
-.openlayers-map img,
-#getlocations_map_canvas img,
-#locationmap_map img,
-.geofieldMap img,
-.views_horizontal_slider img,
-.field-widget-imagefield-crop-widget img {
-  max-width: none !important;
-}
-
-/* Improve IE's resizing of images */
-svg:not(:root) {
-  overflow: hidden;
-}
-
-/* Corrects inline-block display not defined in IE6/7/8/9 & FF3 */
-audio,
-canvas,
-video {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-}
-
-/* Prevents modern browsers from displaying 'audio' without controls */
-audio:not([controls]) {
-  display: none;
-}
-
 /* Forms */
 input.form-text,
 textarea {
   padding: 4px;
-  max-width: 100%;
 }
 select {
   padding: 3px;
@@ -339,15 +222,9 @@ fieldset.filter-wrapper {
 }
 .form-submit:focus,
 .form-submit:hover {
-  -moz-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
-}
-#block-user-login .form-submit:focus,
-#block-user-login .form-submit:hover {
-  -moz-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.7);
 }
 input.form-text,
 textarea,
@@ -402,20 +279,6 @@ input#edit-cancel {
   min-width: 25%;
   max-width: 50%;
 }
-#draw {
-  display: block;
-  width: 100%;
-}
-html.js #draw,
-#toggle-wrapper {
-  display: none;
-}
-html.js #toggle-wrapper {
-  display: block;
-}
-#draw-wrapper a {
-  text-decoration: underline;
-}
 #toggle-wrapper a {
   display: block;
   padding: 0 10px 2px;
@@ -448,9 +311,8 @@ html.js #toggle-wrapper {
 }
 #site-name,
 #site-slogan {
-  display: inline-block;
+  display: inline;
   line-height: 1;
-  padding-top: 5px;
 }
 #branding.with-logo.site-name-hidden.with-site-slogan hgroup,
 #branding.with-logo.site-name-hidden.with-site-slogan hgroup #site-slogan {
@@ -464,61 +326,35 @@ html.js #toggle-wrapper {
   padding-top: 5px;
 }
 
-/**
- * Main menu region
- * The theme can't do much, otherwise we run into issues with Superfish which
- * is more important to support out of the box, we try always to work with
- * Superfish and not fight it; bertha, its bigger than both of us...
- */
-#menu-wrapper {
-  margin: 0;
-  padding: 0;
+/* Menu bar */
+#menu-bar {
   position: relative;
-  z-index: 100;
-  top: 1.25em;
-  min-height: 2.5em;
+  top: 1.5em;
+  min-height: 3em;
   clear: both;
   -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
 }
-#menu-bar .block {
-  position: static;
-  text-transform: uppercase;
-}
-#menu-bar ul ul {
-  margin-left: 0;
-}
-#menu-bar .sf-menu {
-  margin-bottom: 0;
-}
-#menu-bar .block-menu,
-#menu-bar .block-menu ul,
-#menu-bar .block-menu ul li {
-  list-style: none;
-  padding: 0;
+.nav ul,
+.nav ul li {
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.nav .block-menu ul li {
+.nav .block {
+  margin: 0 5px;
+}
+.nav ul li,
+.nav ul li a {
+  line-height: 3em;
   float: left;
-}
-.nav .block-menu ul {
-  float: left;
-}
-.nav .block-menu ul ul {
-  padding-left: 0;
-}
-.nav .block-menu ul a {
   display: block;
-  padding: 0.75em 1em;
-  text-decoration: none;
 }
-.nav .block-menu ul li:hover,
-.nav .block-menu ul li.sfHover,
-.nav .block-menu ul a:focus,
-.nav .block-menu ul a:hover,
-.nav .block-menu ul a:active {
-  outline: 0;
+.nav ul li a {
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /* Wrapper white space */
@@ -564,6 +400,9 @@ html.js #toggle-wrapper {
 .field-label {
   font-size: 1em;
 }
+article .field {
+  margin-bottom: 0.75em;
+}
 .field-type-commerce-price {
   font-size: 1.538em;
 }
@@ -574,13 +413,9 @@ html.js #toggle-wrapper {
 .field-type-taxonomy-term-reference li {
   list-style: none;
 }
-.field-type-taxonomy-term-reference.field-label-inline li {
-  display: inline;
-  margin-right: 8px;
-}
 
 /* Articles */
-.node,
+.article,
 .comment {
   margin-bottom: 25px;
 }
@@ -588,7 +423,7 @@ article header {
  position: relative;
  margin-bottom: 10px;
 }
-.node-title {
+.article-title {
   line-height: 1.4;
 }
 article .submitted {
@@ -598,7 +433,7 @@ article .submitted {
   margin: 0;
   position: relative;
 }
-article .node-content {
+article .article-content {
   padding: 10px 0;
 }
 article nav {
@@ -620,13 +455,13 @@ article ul.links a {
   padding: 0;
   text-transform: capitalize;
 }
-.node header.with-picture {
+.article header.with-picture {
   height: 3.5em;
   height: auto !important;
   min-height: 3.5em;
   padding-left: 60px;
 }
-.node header .user-picture {
+.article header .user-picture {
   left: 0;
   top: 9px;
   position: absolute;
@@ -634,15 +469,11 @@ article ul.links a {
   max-height: 47px;
   overflow: hidden;
 }
-.node header .user-picture img {
+.article header .user-picture img {
   display: block;
   margin: 0;
   max-width: 47px;
   max-height: 47px;
-}
-article figcaption {
-  font-style: italic;
-  font-size: 0.9em;
 }
 
 /* Comments */
@@ -677,21 +508,9 @@ article .comment-content {
   font-style: normal;
   line-height: 1.3;
   padding: 0 4px 2px;
-  margin: 5px 0 0 0;
   -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-}
-
-/* Signatures */
-.user-signature p {
-  font-style: italic;
-  text-align: right;
-  margin: 0;
-}
-.user-signature p:before,
-.user-signature p:after {
-  content: '"';
 }
 
 /* Blocks */
@@ -700,6 +519,7 @@ article .comment-content {
 }
 .three-3x33 .block-inner,
 .sidebar .block-inner {
+  padding: 0 10px;
 }
 .region-tertiary-content .block {
   margin-bottom: 0;
@@ -759,6 +579,8 @@ ol#crumbs li.crumb {
 
 /* Tasks */
 #tasks {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* Local task tabs */
