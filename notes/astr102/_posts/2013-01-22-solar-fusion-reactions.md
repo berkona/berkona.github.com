@@ -24,21 +24,21 @@ Helium-4, and neutrinos.
 
 2. The positron almost immediately runs into an electron and annihilates, producing energy (2 gamma rays):
 
-> e+ + e- &rarr; 2ph;
+> e+ + e- &rarr; 2 ph
 
 3. The electron neutrino, which only interacts with weak-force and gravity, escapes the sun without running into anything
 
 4. Deuterium and a proton collide producing Helium-3 and a gamma ray (a photon)
 
-> H-2 + p+ &rarr; He-3 + ph;
+> H-2 + p+ &rarr; He-3 + ph
 
 5. 2 Helium-3 combines to become helium-4 & 2 protons
 
-> He-3 + He-3 &rarr; He-4 + 2p+
+> He-3 + He-3 &rarr; He-4 + 2 p+
 
 6. The overall reaction:
 
-> 6p+ &rarr; He-4 + 2p+ + 2e+ + 2nu-e + 2ph;
+> 6 p+ &rarr; He-4 + 2 p+ + 2 e+ + 2 nu-e + 2 ph;
 
 
 ### CNO cycle ###
