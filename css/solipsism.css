@@ -24,6 +24,6 @@ div#main-content {
 	margin: 0px 5px;
 }
 
-#block-search p {
+#block-search input {
 	line-height: 3em;
 }
