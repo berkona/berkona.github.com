@@ -20,4 +20,6 @@ div#main-content {
 
 #block-search {
 	float: right;
+	display: inline-block;
+	margin: 0px 5px;
 }
