@@ -27,11 +27,11 @@ div#page {
 }
 #header-wrapper {
   background-color: #efefef;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#efefef), to(#e7e7e7));
-  background-image: -moz-linear-gradient(-90deg, #efefef, #e7e7e7);
-  background-image: linear-gradient(-90deg, #efefef, #e7e7e7);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#e7e7e7));
+  background-image: -moz-linear-gradient(180deg, #f5f5f5, #e7e7e7);
+  background-image: linear-gradient(-90deg, #f5f5f5, #e7e7e7);
   -ms-filter: "progid:dXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr='#efefef', endcolorstr='#e7e7e7')";
-  filter: progid:dXImageTransform.Microsoft.gradient(enabled='true',startcolorstr=#efefef,endcolorstr=#e7e7e7,GradientType=0);
+  filter: progid:dXImageTransform.Microsoft.gradient(enabled='true',startcolorstr=#f5f5f5,endcolorstr=#e7e7e7,GradientType=0);
 }
 #secondary-content-wrapper {
   background-color: #dddddd;
