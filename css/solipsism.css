@@ -18,10 +18,6 @@ div#main-content {
 	margin-bottom: 5%;
 }
 
-#menu-bar ul.menu li.right {
-	float: right;
-}
-
 #block-search {
-	float: left;
+	float: right;
 }
