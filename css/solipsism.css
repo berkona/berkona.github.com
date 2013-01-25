@@ -10,4 +10,10 @@
 
 .webkit .lb-h.block-region-menu-bar input.form-submit {
   right: auto;
-} 
+}
+
+div#main-content {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
