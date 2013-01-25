@@ -1,6 +1,11 @@
 ---
 layout: note-index
 title: ASTR 102
-title_detail: Notes from Astronomy 102: The Sun Spring 2013
-note_category: site.categories.astr102
+title_detail: Notes from ASTR102 - Stars Spring 2013
 ---
+
+{% for post in site.categories.astr102 %}
+<li>
+  <a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
