@@ -6,24 +6,26 @@ title: Jan 22, 2013 - Solar Fusion Reactions
 ## Particle reference ##
 Proton
 :	p
-:	<sup>1</sup>H
+:	<span><sup>1</sup>H</span>
 Neutron
 :	n
 Electron
-:	e<sup>-</sup>
+:	<span>e<sup>-</sup></span>
 Positron
-:	e<sup>+</sup>
+:	<span>e<sup>+</sup></span>
 Electron Neutrino
-:	&nu;<sub>e</sub>
+:	<span>&nu;<sub>e</sub></span>
 Photon (energy)
 :	&gamma;
 Deuterium (p + n)
 :	D
-:	<sup>2</sup>H
+:	<span><sup>2</sup>H</span>
 Helium-3
-:	<sup>3</sup>He
+:	He-3
+: <span><sup>4</sup>He</span>
 Helium-4
-:	<sup>4</sup>He
+: He-4
+:	<span><sup>4</sup>He</span>
 
 ## Proton-Proton Chain Reaction ##
 
@@ -31,24 +33,21 @@ Fusion reaction combines protons into energy, positrons,
 Helium-4, and neutrinos.
 
 1. 	Two protons collide a weak-interaction scale producing a deuterium, a positron, and an electron neutrino:
-			<sup>1</sup>H + <sup>1</sup>H &rarr; <sup>2</sup>H + e<sup>+</sup> + &nu;<sub>e</sub>
+			p + p &rarr; D + positron + &nu;<sub>e</sub>
 
 2.	The positron almost immediately runs into an electron and annihilates, producing energy (2 gamma rays):
-			e<sup>+</sup> + e<sup>-</sup> &rarr; 2&gamma;
+			positron + electron &rarr; 2&gamma;
 
 3.	The electron neutrino, which only interacts with weak-force and gravity, escapes the sun without running into anything
 
 4.	Deuterium and a proton collide producing Helium-3 and a gamma ray (a photon)
-			<sup>2</sup>H + <sup>1</sup>H &rarr; <sup>3</sup>He + &gamma;
+			D + p &rarr; He-3 + &gamma;
 
 5.  2 Helium-3 combines to become helium-4 & 2 protons
-			<sup>3</<sup>He + <sup>3</sup>He &rarr; <sup>4</sup>He + 2(<sup>1</sup>H)
+			He-3 + He-3 &rarr; He-4 + 2(p)
 
 6.  The overall reaction:
-			6(<sup>1</sup>H) &rarr; <sup>4</sup>He + 2(<sup>1</sup>H) + 2e<sup>+</sup> + 2&nu;<sub>e</sub> + 2&gamma;
-
-
-
+			6p &rarr; He-4 + 2p + 2 positron + 2&nu;<sub>e</sub> + 2&gamma;
 
 
 ### CNO cycle ###
@@ -61,7 +60,7 @@ Proton-proton energy production is greater than CNO energy
 release in our sun, but increased can overwhelm p-p
 reactions over 15 million &deg;K
 
-- 4 P &rarr; Helium-4: mass difference = 0.048 * 10<sup>-27</sup> kg
+- 4 P &rarr; Helium-4: mass difference = 0.048 * 10 <sup>-27</sup> kg
 - 600 million tons of hydrogen into ~ 600 million tons per second
 - ~ 4.3 million tons of hydrogen goes into energy
 
@@ -88,10 +87,8 @@ reactions over 15 million &deg;K
 - For small angles: tan &theta; ~~ &theta;
 - Must use radians for this approximation to work
 - for radians:
-	- `tan p = (1 AU / p)` or for small p `p = (1 AU / d)
+	- tan p = (1 AU / p) or for small p, p ~= (1 AU / d)
 - for seconds of arc:
-	- `d = (206,265 AU / p)`
-- `d = r / p` is a new unit: a parsec (AUs per arc second)
+	- d = (206,265 AU / p)
+- d = r / p is a new unit: a parsec (AUs per arc second)
 - 1 parsec ~~ 3.3 light years
-
-### Finding Radius ###
