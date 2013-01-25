@@ -7,8 +7,8 @@ title: Jan 22, 2013 - Solar Fusion Reactions
 *[n0]: neutron
 *[e-]: electron
 *[e+]: positron
-*[&nu;-e]: electron neutrino
-*[&gamma;]: photon (energy)
+*[nu-e]: electron neutrino
+*[ph]: photon (energy)
 *[H-2]:  deuterium/ deuteron
 *[He-3]: helium-3
 *[He-4]: helium-4
@@ -18,22 +18,22 @@ title: Jan 22, 2013 - Solar Fusion Reactions
 Fusion reaction combines protons into energy, positrons,
 Helium-4, and neutrinos.
 
-1. 	Two protons collide a weak-interaction scale producing a deuterium, a positron, and an electron neutrino:
-			p+ + p+ &rarr; H-2 + e+ + &nu;-e
+1. Two protons collide a weak-interaction scale producing a deuterium, a positron, and an electron neutrino:
+    > p+ + p+ &rarr; H-2 + e+ + nu-e
 
-2.	The positron almost immediately runs into an electron and annihilates, producing energy (2 gamma rays):
-			e+ + e- &rarr; 2&gamma;
+2. The positron almost immediately runs into an electron and annihilates, producing energy (2 gamma rays):
+    > e+ + e- &rarr; 2&gamma;
 
-3.	The electron neutrino, which only interacts with weak-force and gravity, escapes the sun without running into anything
+3. The electron neutrino, which only interacts with weak-force and gravity, escapes the sun without running into anything
 
-4.	Deuterium and a proton collide producing Helium-3 and a gamma ray (a photon)
-			H-2 + p+ &rarr; He-3 + &gamma;
+4. Deuterium and a proton collide producing Helium-3 and a gamma ray (a photon)
+    > H-2 + p+ &rarr; He-3 + &gamma;
 
-5.  2 Helium-3 combines to become helium-4 & 2 protons
-			He-3 + He-3 &rarr; He-4 + 2p+
+5. 2 Helium-3 combines to become helium-4 & 2 protons
+    > He-3 + He-3 &rarr; He-4 + 2p+
 
-6.  The overall reaction:
-			6p+ &rarr; He-4 + 2p+ + 2e+ + 2&nu;-e + 2&gamma;
+6. The overall reaction:
+    > 6p+ &rarr; He-4 + 2p+ + 2e+ + 2nu-e + 2&gamma;
 
 
 ### CNO cycle ###
@@ -52,29 +52,29 @@ reactions over 15 million &deg;K
 
 ## Distant Stars ##
 - Properties of stars
-	- distance
-	- radius
-	- temperature
-	- mass of star
-	- luminosity
-	- chemical composition
+  - distance
+  - radius
+  - temperature
+  - mass of star
+  - luminosity
+  - chemical composition
 
 ### How do you determine the distance? ###
 - AUs
-	: average distance between sun & earth
+  : average distance between sun & earth
 - Nearest star: ~100,000 AUs away
 - Using geometry w/ parallax
-	- Move a given distance, measure the angle between the two spots
+  - Move a given distance, measure the angle between the two spots
 - Parallax in astronomy:
-	- measurement 1: Earth in July
-	- measurement 2: Earth in Jan
-	- equals distance of 2 AUs
+  - measurement 1: Earth in July
+  - measurement 2: Earth in Jan
+  - equals distance of 2 AUs
 - The closer the start, the larger the shift relative to the background
 - For small angles: tan &theta; ~~ &theta;
 - Must use radians for this approximation to work
 - for radians:
-	- tan p = (1 AU / p) or for small p, p ~= (1 AU / d)
+  - tan p = (1 AU / p) or for small p, p ~= (1 AU / d)
 - for seconds of arc:
-	- d = (206,265 AU / p)
+  - d = (206,265 AU / p)
 - d = r / p is a new unit: a parsec (AUs per arc second)
 - 1 parsec ~~ 3.3 light years
