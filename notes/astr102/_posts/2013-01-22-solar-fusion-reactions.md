@@ -5,27 +5,36 @@ title: Jan 22, 2013 - Solar Fusion Reactions
 
 ## Particle reference ##
 Proton
-:	p
+: p
 :	<span><sup>1</sup>H</span>
+
 Neutron
 :	n
+
 Electron
 :	<span>e<sup>-</sup></span>
+
 Positron
 :	<span>e<sup>+</sup></span>
+
 Electron Neutrino
 :	<span>&nu;<sub>e</sub></span>
+
 Photon (energy)
 :	&gamma;
+
 Deuterium (p + n)
 :	D
 :	<span><sup>2</sup>H</span>
+
 Helium-3
 :	He-3
 : <span><sup>4</sup>He</span>
+
 Helium-4
 : He-4
 :	<span><sup>4</sup>He</span>
+
 
 ## Proton-Proton Chain Reaction ##
 
