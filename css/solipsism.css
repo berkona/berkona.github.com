@@ -23,3 +23,7 @@ div#main-content {
 	display: inline-block;
 	margin: 0px 5px;
 }
+
+#block-search form {
+	line-height: 3em;
+}
