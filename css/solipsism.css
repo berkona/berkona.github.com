@@ -22,6 +22,6 @@ div#main-content {
 	float: right;
 }
 
-#menu-bar ul.menu li {
-	display: inline-block;
+#block-search {
+	float: left;
 }
