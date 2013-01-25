@@ -31,21 +31,21 @@ Fusion reaction combines protons into energy, positrons,
 Helium-4, and neutrinos.
 
 1. 	Two protons collide a weak-interaction scale producing a deuterium, a positron, and an electron neutrino:
-		<sup>1</sup>H + <sup>1</sup>H &rarr; <sup>2</sup>H + e<sup>+</sup> + &nu;<sub>e</sub>
+			<sup>1</sup>H + <sup>1</sup>H &rarr; <sup>2</sup>H + e<sup>+</sup> + &nu;<sub>e</sub>
 
 2.	The positron almost immediately runs into an electron and annihilates, producing energy (2 gamma rays):
-		e<sup>+</sup> + e<sup>-</sup> &rarr; 2&gamma;
+			e<sup>+</sup> + e<sup>-</sup> &rarr; 2&gamma;
 
 3.	The electron neutrino, which only interacts with weak-force and gravity, escapes the sun without running into anything
 
 4.	Deuterium and a proton collide producing Helium-3 and a gamma ray (a photon)
-		<sup>2</sup>H + <sup>1</sup>H &rarr; <sup>3</sup>He + &gamma;
+			<sup>2</sup>H + <sup>1</sup>H &rarr; <sup>3</sup>He + &gamma;
 
 5.  2 Helium-3 combines to become helium-4 & 2 protons
-		<sup>3</<sup>He + <sup>3</sup>He &rarr; <sup>4</sup>He + 2(<sup>1</sup>H)
+			<sup>3</<sup>He + <sup>3</sup>He &rarr; <sup>4</sup>He + 2(<sup>1</sup>H)
 
 6.  The overall reaction:
-		6(<sup>1</sup>H) &rarr; <sup>4</sup>He + 2(<sup>1</sup>H) + 2e<sup>+</sup> + 2&nu;<sub>e</sub> + 2&gamma;
+			6(<sup>1</sup>H) &rarr; <sup>4</sup>He + 2(<sup>1</sup>H) + 2e<sup>+</sup> + 2&nu;<sub>e</sub> + 2&gamma;
 
 
 

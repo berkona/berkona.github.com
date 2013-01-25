@@ -102,7 +102,7 @@ title: Jan 22, 2012 - Network Switching
 	- "Hello, hello back"
 	- Set up "state" in two communicating hosts
 - Transmit data
-- Connection-oriented services on the internet: TCP [RFC 793]
+- Connection-oriented services on the internet: TCP (RFC 793)
 
 ### TCP Service Model ###
 - Defined in the context of a 'connection'
@@ -114,7 +114,7 @@ title: Jan 22, 2012 - Network Switching
 ### Connection-less services ###
 - Goal: transfer data between end systems
 - Advantage: if the application doesn't not need reliability or you do not want to wait, use connection-less services
-- In the wild: UDP [RFC 768]
+- In the wild: UDP (RFC 768)
 	- unreliable data transfer
 	- no flow control
 	- no congestion control
