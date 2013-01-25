@@ -17,3 +17,7 @@ div#main-content {
 	margin-right: 5%;
 	margin-bottom: 5%;
 }
+
+#menu-bar ul.menu li.right {
+	float: right;
+}
