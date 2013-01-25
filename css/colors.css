@@ -3,8 +3,9 @@
 html {
   background: #e2e2e2;
 }
+
 body {
-  color: #666666;
+  color: #333333;
 }
 
 /* Links */
@@ -142,7 +143,7 @@ h1, h2, h3, .title {
  background: #f9f9f9;
 }
 article header {
- border-bottom: 1px solid #dd5d5;
+ border-bottom: 1px solid #d5d5d5;
 }
 
 /* Blocks */
@@ -193,13 +194,13 @@ textarea,
 select {
   border: 1px solid #d5d5d5;
   background-color: #FFFFFF;
-  
-  background-image: -webkit-linear-gradient(-90deg, #FFFFFF, #E7E7E7);   
-  background-image:    -moz-linear-gradient(-90deg, #FFFFFF, #E7E7E7);   
-  background-image:     -ms-linear-gradient(-90deg, #FFFFFF, #E7E7E7);   
-  background-image:      -o-linear-gradient(-90deg, #FFFFFF, #E7E7E7);   
+
+  background-image: -webkit-linear-gradient(-90deg, #FFFFFF, #E7E7E7);
+  background-image:    -moz-linear-gradient(-90deg, #FFFFFF, #E7E7E7);
+  background-image:     -ms-linear-gradient(-90deg, #FFFFFF, #E7E7E7);
+  background-image:      -o-linear-gradient(-90deg, #FFFFFF, #E7E7E7);
   background-image:         linear-gradient(-90deg, #FFFFFF, #E7E7E7);
-  
+
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
@@ -316,13 +317,13 @@ input#edit-continue {
 
 .lb-h.block-region-menu-bar #user-login-form input[type="submit"] {
   background-color: #FFFFFF;
-  
-  background-image: -webkit-linear-gradient(-90deg, #FFFFFF, #E7E7E7);   
-  background-image:    -moz-linear-gradient(-90deg, #FFFFFF, #E7E7E7);   
-  background-image:     -ms-linear-gradient(-90deg, #FFFFFF, #E7E7E7);   
-  background-image:      -o-linear-gradient(-90deg, #FFFFFF, #E7E7E7);   
+
+  background-image: -webkit-linear-gradient(-90deg, #FFFFFF, #E7E7E7);
+  background-image:    -moz-linear-gradient(-90deg, #FFFFFF, #E7E7E7);
+  background-image:     -ms-linear-gradient(-90deg, #FFFFFF, #E7E7E7);
+  background-image:      -o-linear-gradient(-90deg, #FFFFFF, #E7E7E7);
   background-image:         linear-gradient(-90deg, #FFFFFF, #E7E7E7);
-  
+
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
