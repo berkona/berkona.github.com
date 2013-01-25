@@ -3,38 +3,16 @@ layout: note
 title: Jan 22, 2013 - Solar Fusion Reactions
 ---
 
-## Particle reference ##
-Proton
-: p
-:	<span><sup>1</sup>H</span>
-
-Neutron
-:	n
-
-Electron
-:	<span>e<sup>-</sup></span>
-
-Positron
-:	<span>e<sup>+</sup></span>
-
-Electron Neutrino
-:	<span>&nu;<sub>e</sub></span>
-
-Photon (energy)
-:	&gamma;
-
-Deuterium (p + n)
-:	D
-:	<span><sup>2</sup>H</span>
-
-Helium-3
-:	He-3
-: <span><sup>4</sup>He</span>
-
-Helium-4
-: He-4
-:	<span><sup>4</sup>He</span>
-
+*[p]: proton
+*[n]: neutron
+*[e-]: electron
+*[e+]: positron
+*[&nu;-e]: electron neutrino
+*[&gamma;]: photon (energy)
+*[D]: deuterium/ deuteron
+*[H-2]:  deuterium/ deuteron
+*[He-3]: helium-3
+*[He-4]: helium-4
 
 ## Proton-Proton Chain Reaction ##
 
@@ -42,10 +20,10 @@ Fusion reaction combines protons into energy, positrons,
 Helium-4, and neutrinos.
 
 1. 	Two protons collide a weak-interaction scale producing a deuterium, a positron, and an electron neutrino:
-			p + p &rarr; D + positron + &nu;<sub>e</sub>
+			p + p &rarr; D + positron + &nu;-e
 
 2.	The positron almost immediately runs into an electron and annihilates, producing energy (2 gamma rays):
-			positron + electron &rarr; 2&gamma;
+			positron + electron &rarr; 2 * &gamma;
 
 3.	The electron neutrino, which only interacts with weak-force and gravity, escapes the sun without running into anything
 
@@ -53,10 +31,10 @@ Helium-4, and neutrinos.
 			D + p &rarr; He-3 + &gamma;
 
 5.  2 Helium-3 combines to become helium-4 & 2 protons
-			He-3 + He-3 &rarr; He-4 + 2(p)
+			He-3 + He-3 &rarr; He-4 + 2 * p
 
 6.  The overall reaction:
-			6p &rarr; He-4 + 2p + 2 positron + 2&nu;<sub>e</sub> + 2&gamma;
+			6 * p &rarr; He-4 + 2 * p + 2 * e+ + 2 * &nu;-e + 2 * &gamma;
 
 
 ### CNO cycle ###
