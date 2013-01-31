@@ -1,6 +1,6 @@
 ---
 layout: note
-title: Jan 22, 2013 - Solar Fusion Reactions
+title: Solar Fusion Reactions
 ---
 
 *[p+]: proton

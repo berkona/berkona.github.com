@@ -1,6 +1,6 @@
 ---
 layout: note
-title: Jan 17, 2013 - Sun Composition
+title: Sun Composition
 ---
 
 ## Corona

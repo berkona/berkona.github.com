@@ -1,3 +1,9 @@
+---
+title: Problem Set 1
+date: January 29 2013 11:00
+layout: note
+---
+
 A)
 
 T = 8F + 8h
