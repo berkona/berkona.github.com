@@ -5,7 +5,5 @@ title_detail: Notes from COMP410 - Data Structures Spring 2013
 ---
 
 {% for post in site.categories.comp410 %}
-<li>
-  <a href="{{ post.url }}">{{ post.title }}</a>
-</li>
+{% include note-list-item.html %}
 {% endfor %}

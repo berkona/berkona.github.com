@@ -5,7 +5,5 @@ title_detail: Notes from ASTR102 - Stars Spring 2013
 ---
 
 {% for post in site.categories.astr102 %}
-<li>
-  <a href="{{ post.url }}">{{ post.title }}</a>
-</li>
+{% include note-list-item.html %}
 {% endfor %}
