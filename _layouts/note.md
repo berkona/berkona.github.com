@@ -1,11 +1,22 @@
 ---
 layout: default
 ---
+
+<div class="note-content">
+
 {% if page.title %}
-<h2 class="content-title">{{ page.title }}</h2>
+<h1 class="content-title">{{ page.title }}</h1>
 {% endif %}
+
+{{ content }}
+
+<div>
+
+<div class="toc">
+
+<h1 class="toc-header">Table of Contents</h1>
 
 * This is a stub for the toc.
 {:toc}
 
-{{ content }}
+</div>
