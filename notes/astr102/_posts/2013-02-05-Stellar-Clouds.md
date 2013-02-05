@@ -25,7 +25,10 @@ In the interstellar medium, the gas physics is somewhat different that gas law.
 Gases can radiate energy into space, lowering its gas pressure.  Gas regions
 can drop out relative to the main cloud.  Cloud fragmentation leads to
 
-<h1 class="toc-header">Table of Contents</h1>
+Star Formation
+==============
 
-* This is a stub for the toc.
-{:toc}
+Stars form outside the main sequence and gradually settle onto to the main
+sequence.
+
+{% include toc %}
