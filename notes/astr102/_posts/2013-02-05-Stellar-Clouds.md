@@ -31,4 +31,4 @@ Star Formation
 Stars form outside the main sequence and gradually settle onto to the main
 sequence.
 
-{% include toc %}
+{% include toc.md %}
