@@ -1,10 +1,10 @@
 ---
 layout: default
-title: ASTR 102 - INTRODUCTION TO ASTRONOMY
+title: ASTR 102 Syllabus
 ---
 
-ASTR 102: INTRODUCTION TO ASTRONOMY, STARS, GALAXIES & COSMOLOGY
-=================================================================
+ASTR 102: STARS, GALAXIES & COSMOLOGY
+======================================
 
 - Instructor:  Prof. Charles R. Evans
 - Section:
