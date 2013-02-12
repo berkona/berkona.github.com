@@ -3,7 +3,8 @@ layout: default
 title: ASTR 102 - INTRODUCTION TO ASTRONOMY
 ---
 
-## STARS, GALAXIES & COSMOLOGY ##
+ASTR 102: INTRODUCTION TO ASTRONOMY, STARS, GALAXIES & COSMOLOGY
+=================================================================
 
 - Instructor:  Prof. Charles R. Evans
 - Section:
@@ -27,7 +28,8 @@ responsible for the material covered in both the lectures and the text.
 and use, so you may wish to review some of the earlier chapters in the
 book.
 
-### COURSE WEBPAGE ###
+COURSE WEBPAGE
+---------------
 
 ASTR 102 is divided into nine lessons.  Each lesson’s reading assignment
 and supplementary notes can be found on the course webpage:
@@ -49,7 +51,8 @@ your ONYEN as your user name and enter your UNC student ID when
 enrolling.  This enables me to more easily match your grades on
 assignments with grades on exams.
 
-### GRADES ###
+GRADES
+------
 
 90% is not an A, 80% is not a B, etc.  Final grades will be assigned on
 a curve at the end of the semester. I will let you know how you did in
@@ -83,21 +86,18 @@ COURSE CALENDAR
 
 Some of these dates are subject to change.  Always check the website and/or Webassign for the most up to date information!
 
-
-| Date      | Event                      |
-------------------------------------------
-| Jan 10    | Class begins               |
-| Jan 25    | HW 1 due                   |
-| Feb 8     | HW 2 due                   |
-| Feb 15    | HW 3 due                   |
-| Feb 21    | Midterm 1                  |
-| Mar 1     | HW 4 due                   |
-| Mar 8     | HW 5 due                   |
-| Mar 12-14 | No class                   |
-| Mar 29    | HW 6 due                   |
-| Apr 4     | Midterm 2                  |
-| Apr 12    | HW 7 due                   |
-| Apr 19    | HW 8 due                   |
-| Apr 25    | Last class                 |
-| Apr 27    | HW 9 due                   |
-| May 6     | Final exam (12:00 - 15:00) |
+- Jan 10: Class begins
+- Jan 25: HW 1 due
+- Feb 8: HW 2 due
+- Feb 15: HW 3 due
+- Feb 21: Midterm 1
+- Mar 1: HW 4 due
+- Mar 8: HW 5 due
+- Mar 12-14: No class
+- Mar 29: HW 6 due
+- Apr 4: Midterm 2
+- Apr 12: HW 7 due
+- Apr 19: HW 8 due
+- Apr 25: Last class
+- Apr 27: HW 9 due
+- May 6: Final exam (12:00 - 15:00)
