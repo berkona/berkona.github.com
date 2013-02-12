@@ -7,7 +7,7 @@ ASTR 102: STARS, GALAXIES & COSMOLOGY
 ======================================
 
 - Instructor:  Prof. Charles R. Evans
-- Section:
+- Section: 1
 - Class Location:  206 Phillips
 - Class Hours:  12:30 – 1:45 Tue/Thu
 - Office Hours Location:  403 Morehead Planetarium (use east/arboretum entrance)
@@ -44,7 +44,7 @@ WEBASSIGN
 Homeworks will be administered through Webassign.  Go
 to[http://www.webassign.com](http://www.webassign.com/),  create an
 account if you do not already have one, and add this course.  The course
-key for Spring 2013 isunc 2042 5115
+key for Spring 2013 is *unc 2042 5115*
 
 PLEASE NOTE: If you are creating a new account, please consider using
 your ONYEN as your user name and enter your UNC student ID when
