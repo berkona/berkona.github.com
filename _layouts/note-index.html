@@ -2,9 +2,13 @@
 layout: default
 ---
 <section class="content-header">
-	{% if page.title %}<h2> {{ page.title }} </h2> {% endif %}
+	{% if page.title %}<h1> {{ page.title }} </h1> {% endif %}
 	{% if page.title_detail %} <p> {{ page.title_detail }} </p> {% endif %}
 </section>
+{% if page.syllabus %}
+<h1 class="content-syllabus">
+	<a href="{{ page.syllabus }}">Syllabus</a>
+</h1>
 <ul class="content-entries">
 	{{ content }}
 </ul>
