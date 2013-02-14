@@ -1,7 +1,8 @@
 /* Base */
 html {
-  font-size: 81.3%; /* 13px base font size */
+  font-size: 1em;
 }
+
 body {
   line-height: 1.5;
 }
