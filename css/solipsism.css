@@ -38,5 +38,5 @@ body {
 }
 
 td.gsib_b {
-	vertical-align: top;
+	vertical-align: top !important;
 }
