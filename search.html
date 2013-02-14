@@ -4,8 +4,27 @@ title: Search Results
 ---
 <div id="search_results"></div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" />
-<script src="/js/jquery-tapir.min.js" />
+<script src="http://www.google.com/jsapi" type="text/javascript"/>
 <script type="text/javascript">
-	$('#search_results').tapir({'token': '50fa0f903f61b04110000322'});
+  google.load("search", "1");
+
+  function OnLoad() {
+    // Create a search control
+    var searchControl = new google.search.SearchControl();
+
+    // Add in a WebSearch
+    var webSearch = new google.search.WebSearch();
+
+    // Restrict our search to pages from this site
+    webSearch.setSiteRestriction('your site url');
+
+    // Add the searcher to the SearchControl
+    searchControl.addSearcher(webSearch);
+
+    // tell the searcher to draw itself and tell it where to attach
+    searchControl.draw(document.getElementById("search_results"));
+  }
+
+  google.setOnLoadCallback(OnLoad);
+
 </script>
