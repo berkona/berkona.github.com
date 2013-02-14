@@ -27,3 +27,12 @@ div#main-content {
 #block-search span {
 	line-height: 3em;
 }
+
+.block-title {
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+body {
+	font-family: Arial,Helvetica,sans-serif;
+}
