@@ -7,10 +7,10 @@ layout: note
 White Dwarf
 ============
 
-Composed of electron degenerate matter.  How common are they?  If the star's initial mass is less than 8 solar masses, the star will always become a white dwarf.  If it's heavier than that, it would form a neutron star or, with a supernova, a black hole.  Therefore, white dwarfs are relatively common.
+- M ~= 0.6 solar masses
+- R ~= 0.01 solar radii
 
-M ~= 0.6 solar masses
-R ~= 0.01 solar radii
+Composed of electron degenerate matter.  How common are they?  If the star's initial mass is less than 8 solar masses, the star will always become a white dwarf.  If it's heavier than that, it would form a neutron star or, with a supernova, a black hole.  Therefore, white dwarfs are relatively common.
 
 Example: Sirius B
 
