@@ -36,3 +36,7 @@ div#main-content {
 body {
 	font-family: Arial,Helvetica,sans-serif;
 }
+
+td.gsib_b {
+	vertical-align: top;
+}
