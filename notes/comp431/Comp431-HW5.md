@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Homework 5: Interoperability
+title: Homework 5|Interoperability
 ---
 
 > Jonathan Monroe
