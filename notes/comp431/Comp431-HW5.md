@@ -1,3 +1,8 @@
+---
+layout: default
+title: Homework 5: Interoperability
+---
+
 > Jonathan Monroe
 
 # Homework 5: Interoperability
