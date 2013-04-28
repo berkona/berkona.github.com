@@ -1,5 +1,5 @@
 ---
-title: Transport Layer: Multiplexing Error Detection and UDP
+title: Transport Layer - Multiplexing Error Detection and UDP
 date: February 28 2013 11:02
 layout: note
 ---

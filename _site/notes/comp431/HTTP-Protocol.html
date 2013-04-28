@@ -1,0 +1,169 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon" />
+  <meta name="Generator" content="Jekyll and GitHub Pages" />
+  <link rel="alternate" type="application/rss+xml" title="Front page feed" href="/rss.xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="MobileOptimized" content="width" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta http-equiv="cleartype" content="on" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <title>Solipsis Development  | HTTP Protocol </title>
+  <style>
+    body.snf-gwf-open-sans #site-name{ font-family :'Open Sans' }
+    body.ssf-gwf-open-sans #site-slogan{ font-family:'Open Sans' }
+    body.ptf-gwf-open-sans #page-title{ font-family:'Open Sans' }
+    body.ntf-gwf-open-sans .article-title{ font-family:'Open Sans' }
+    body.ctf-gwf-open-sans .comment-title{ font-family:'Open Sans' }
+    body.btf-gwf-open-sans .block-title{ font-family:'Open Sans' }
+  </style>
+  <style type="text/css">
+    @import url("/css/system.base.css");
+    @import url("/css/system.menus.css");
+    @import url("/css/system.messages.css");
+    @import url("/css/system.theme.css");
+
+    @import url("/css/search.css");
+
+    @import url("/css/at.base.css");
+    @import url("/css/at.layout.css");
+    @import url("/css/at.messages.css");
+
+    @import url("/css/styles.base.css");
+
+    @import url("/css/colors.css");
+    @import url("/css/solipsism.css");
+  </style>
+
+  <link type="text/css" rel="stylesheet" href="/css/solipsism.responsive.layout.css" media="screen" />
+  <link type="text/css" rel="stylesheet" href="/css/at_commerce.responsive.style.css" media="screen" />
+  <link type="text/css" rel="stylesheet" href="/css/at_commerce.responsive.gpanels.css" media="screen" />
+  <link type="text/css" rel="stylesheet" href="/css/solipsism.responsive.style.css" media="screen" />
+  <link type="text/css" rel="stylesheet" href="/css/solipsism.responsive.gpanels.css" media="screen" />
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" media="all" />
+
+  <!--
+  <script type="text/javascript"
+    src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" />
+  -->
+
+</head>
+<body class="html site-name-hidden solipsism fs-medium bb-n hl-l mb-dd mma-l ia-c snc-n snw-n  sns-n ssc-n ssw-n  sss-n ptc-n ptw-n pta-l pts-n ntc-n ntw-n nta-l nts-n ctc-n ctw-n cta-l cts-n btc-uc btw-n bta-l bts-n itrc-4 isrc-4 bf-a snf-gwf-open-sans ssf-gwf-open-sans ptf-sss ptf-gwf-open-sans ntf-gwf-open-sans ctf-gwf-open-sans btf-gwf-open-sans hide-ss-nav">
+
+<div id="skip-link">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div id="page-wrapper"><div id="page">
+  <div id="header-wrapper"><div class="container clearfix">
+    <header class="clearfix">
+      <div id="branding" class="clearfix no-logo site-name-hidden no-slogan">
+        <hgroup class="element-invisible">
+          <h1 id="site-name" class="element-invisible"><a href="/" title="Home page" class="active">Solipsis Development</a></h1>
+        </hgroup>
+      </div>
+      <div id="menu-bar" class="nav clearfix">
+        <nav id="block-system-main-menu" class="block block-system block-menu block-region-menu-bar clearfix">
+          <h2 class="block-title element-invisible element-invisible">Main menu</h2>
+          <div class="menu-wrapper clearfix">
+            <ul class="menu clearfix">
+              <li class="first leaf">
+                <a href="/" title="The latest news." class="active">Home</a>
+              </li>
+              <li class="leaf">
+                <a href="/about" title="The essential questions in life.">About Us</a>
+              </li>
+              <li class="leaf">
+                <a href="/team/jonmonroe" title="What we&#039;ve done.">Experience</a>
+              </li>
+              <li class="leaf">
+                <a href="/latest" title="Blog">Blog</a>
+              </li>
+              <li class="leaf last">
+                <a href="/search.html" title="search">Search</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div></div>
+  <div id="content-wrapper" class="no-secondary"><div class="container">
+    <div id="columns"><div class="columns-inner clearfix">
+      <div id="content-column"><div class="content-inner">
+        <div id="main-content">
+          <div id="content">
+          	<div class="note-content">
+
+<h1 class="content-title">
+02/14/13
+
+
+ | HTTP Protocol
+
+
+</h1>
+
+<h1 id='caching'>Caching</h1>
+
+<dl>
+<dt>Conditional GET</dt>
+
+<dd>If the object in the browser cache is &#8216;fresh&#8217;, the server won&#8217;t resent the response. Conditional GET has last modified date from cache. Browsers save object in cache with a last modified tag. Server can respond with a 304 Not Modified message if the image hasn&#8217;t changed since that date. If modified, it returns a 200 OK with the object&#8217;s data.</dd>
+
+<dt>What is the average time to retrieve a web object?</dt>
+
+<dd>T_mean = hit_ratio * t_cache + (1 - hit_ratio) * t_server</dd>
+
+<dt>What is the mean access time from a disk cache?</dt>
+
+<dd>Depends on many different things, but in the area of 1-10 ms</dd>
+
+<dt>So, if the hit ratio is 60%?</dt>
+
+<dd>T_mean = .6 * 10 ms + .4 * 1000 ms = 406 ms</dd>
+</dl>
+
+<p>Having a disk cache reduced the average response time from 1 second to ~400 ms.</p>
+
+<dl>
+<dt>What determines the hit ratio?</dt>
+
+<dd>Cache size - can retain more stuff</dd>
+
+<dd><em>Locality of references</em> - how often the same web object requested</dd>
+
+<dd>How long objects remain &#8216;fresh&#8217; or unchanged</dd>
+
+<dd>Object references that can&#8217;t be cached. I.E., dynamically generated content, protected content, content purchased each use, content that must be always up-to-date, advertisements (&#8216;pay-per-click&#8217;).</dd>
+</dl>
+
+<h1 id='chapter_2__problem_1'>Chapter 2 - Problem 1</h1>
+
+<p>A: dog.com - 20,000 bits - 2<em>50 ms + .2 ms = 100.2 ms</em></p>
+
+<p>A: dog.com/dog-banner.jpg - 2<em>50 ms + 15 000 / 100 000 000 = 100.15 ms B: cat.com/meow-add.jpg - 2</em>10 ms + 10 000 / 100 000 000 = 20.1 ms C: bird.com/chirp-add.jpg - 2<em>20 ms + 10 000 / 100 000 000 = 40.1 ms D: cat.com/puss-chow-add.jpg - 2</em>10 ms + 10 000 / 100 000 000 = 20.1 ms</p>
+
+<p>B: www.dog.com/dog-chow-add.jpg - 2<em>50 ms + 0.1 ms = 100.1 ms D: www2.dog.com/cookie.crumb - 2</em>50 ms + 0.05 ms = 100.05 ms</p>
+
+<p>Persistent, reusing domain first</p>
+
+<p>A: dog.com - 2<em>50 ms + .2 ms = 100.2 ms A: dog.com/dog-banner.jpg - 50 ms + .15 ms = 50.15 ms A: dog.com/dog-chow-add.jpg - 50 ms + .1 ms = 50.1 ms</em></p>
+
+<p>B: cat.com/meow-add.jpg - 2<em>10 ms + .1 ms = 20.1 ms B: cat.com/puss-chow-add.jpg - 10 ms + .1 ms = 10.1 ms</em></p>
+
+<div>
+
+          </div>
+        </div>
+        <footer id="page-footer">
+          <p>&copy; Solipsis Development 2011 | All Rights Reserved. </p>
+        </footer>
+      </div></div>
+    </div></div>
+  </div></div>
+</div></div>
+<script src="/js/google-analytics.js" />
+</body>
+</html>
