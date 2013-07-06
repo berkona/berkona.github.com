@@ -20,7 +20,7 @@ layout: note
 - Forms a hugely dense core.
 - Event horizon: boundary between when you can access the outside universe and when you can no longer communicate with the outside world.
 - Why? Escape Velocity. The escape speed is > than speed of light
-- V_esc = sqrt( 2*G*M / R ) or V_esc ~= sqrt ( 2*M / R)
+- `V_esc = sqrt( 2*G*M / R ) or V_esc ~= sqrt ( 2*M / R)`
 - Earth's escape speed is 11 km/s
 - Black holes can also be formed by sufficiently heavy stars collapsing
 - If the mass of the star is above or around 25 solar masses, the iron core collapses and doesn't find a stable point when NDP sets in.
