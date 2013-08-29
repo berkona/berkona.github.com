@@ -3,8 +3,8 @@ layout: default
 ---
 
 ## Current Classes ##
-- [COMP 431](/notes/comp431)
-- [ASTR 102](/notes/astr102)
+- [COMP 283](/notes/comp283)
 
 ## Previous Classes ##
-- Oh Noes!  There are no previous class notes.
+- [COMP 431](/notes/comp431)
+- [ASTR 102](/notes/astr102)
